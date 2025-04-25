@@ -1,6 +1,6 @@
 "use strict"
 
-document.getElementById("cargar").addEventListener("click", pedirAlServidor);
+pedirAlServidor();
 
 function pedirAlServidor() {
     let xhttp;

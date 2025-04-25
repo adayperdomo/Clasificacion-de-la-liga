@@ -1,9 +1,19 @@
-h2{
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-th{
-    background-color: #CC0000;
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+h2{
+    padding-top: 30px;
+    font-size: xx-large;
 }
 
 table, th, td {
@@ -11,4 +21,62 @@ table, th, td {
     border-collapse: collapse;
     padding: 15px;
     margin-top: 20px;
+}
+
+th{
+    background-color: #CC0000;
+    color: white;
+}
+
+tr:nth-child(2), tr:nth-child(3), tr:nth-child(4), tr:nth-child(5){
+    background-color: #bdd7ee;
+}
+
+tr:nth-child(6){
+    background-color: #fe9369;
+} 
+
+tr:nth-child(7){
+    background-color: #90ee90;
+}
+
+tr:nth-child(18), tr:nth-child(19), tr:nth-child(20), tr:nth-child(21){
+    background-color: #ff8a7d;
+}
+
+td:nth-child(1), td:nth-child(2){
+    font-weight: bold;
+}
+
+#leyenda{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+#leyenda div{
+    width: 5px;
+    height: 20px;
+}
+
+#leyenda p{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.cl{
+    background-color: #bdd7ee;
+}
+
+.el{
+    background-color: #fe9369;
+}
+
+.con{
+    background-color: #90ee90;
+}
+
+.de{
+    background-color: #ff8a7d;
 }
