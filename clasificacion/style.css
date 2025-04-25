@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+}
+
+th{
+    background-color: #CC0000;
+}
+
+table, th, td {
+    border: 1px solid #E1E1E1;
+    border-collapse: collapse;
+    padding: 15px;
+    margin-top: 20px;
+}
